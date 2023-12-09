@@ -1,0 +1,85 @@
+1) What does the `rm` command in the terminal do?
+
+Your answer: to remove file(s)
+
+
+------------------
+2) What terminal command would you use to list all the files and folder in the 
+   current directory?
+
+Your answer: ls -a
+
+
+------------------
+3) Explain the difference between these two commands in the terminal:
+   
+   $ cd Users 
+   $ cd /Users 
+
+Your answer: $ cd Users:  it's a relative path and it starts looking in current directory
+   $ cd /Users:  it's a absolute path and it starts looking at top of filesystem  
+
+
+------------------
+4) Describe what git is and what it is used for.
+
+Your answer: git is software that uses to keep track of all changes in files 
+and most popular Open Source version control program
+
+
+------------------
+5) Describe what GitHub is and what it is used for.
+
+Your answer: GitHub is a website that allows you to store your local repository in the cloud, 
+to support many developers working on same project.
+
+
+------------------
+6) Which of these commands sets up a new git repository?
+    a) git clone 
+    b) git pull
+    c) git init 
+    d) git status
+
+Your answer:
+   a) git clone : sets up the necessary remote called "origin", it will copy all files on the remote into directory
+    b) git pull : pull changes from remote repo to local repo. 
+    c) git init : create a directory called /.git and initialize an existing directory as a Git repository
+    d) git status: to show modified files in working directory, staged for the next commit
+
+------------------
+7) You want to check that you have properly added all the files you want to be
+   tracked in git BEFORE you make a commit. Which command will do this?
+     a) git push
+     b) git commit
+     c) git status
+     d) git remote
+
+Your answer:
+   a) git push : push from local branch commits to the remote repository branch
+     b) git commit: commit the staged content as a new commit
+     c) git status: show modified files in working directory, staged for the next commit
+     d) git remote: add a git URL as an alias
+
+
+------------------
+8) What is the difference between `git add` and `git commit`?
+
+Your answer:
+"git add" is to add a file as it looks now to the staging area but not commit it
+"git commit" is to commit the staged content as a new commit in the history 
+
+
+------------------
+9) What does the `git push` command do?
+
+Your answer: it will push all commits in local branch to the remote repository
+
+
+------------------
+10) When would you use the `git clone` command?
+
+Your answer: when you do not have a copy of the repository on the computer yet. 
+Git clone will always make a new directory with the same name as the remote that you want to clone. 
+
+
